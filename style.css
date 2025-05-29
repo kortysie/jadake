@@ -1,0 +1,207 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f0fa;
+  color: #3e2a56;
+}
+
+header {
+  background-color: #a06cd5;
+  padding: 20px 0;
+  text-align: center;
+  color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  max-width: 150px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #f9f9f9;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #e0b3ff;
+}
+
+.seccion {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #fdfbff;
+}
+
+.seccion h2 {
+  color: #6b3fa0;
+  margin-bottom: 15px;
+}
+
+.seccion p {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.galeria {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.galeria h2 {
+  color: #5e3370;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+
+.card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(160, 108, 213, 0.2);
+  padding: 15px;
+  width: 300px;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card img {
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.card h3 {
+  color: #6b3fa0;
+  margin: 10px 0 5px;
+}
+
+.card p {
+  font-size: 0.95rem;
+}
+
+.contacto {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #e8d5f7;
+}
+
+.contacto h2 {
+  color: #6b3fa0;
+  margin-bottom: 20px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: auto;
+}
+
+form input,
+form textarea {
+  margin-bottom: 15px;
+  padding: 10px;
+  font-size: 1rem;
+  border: 1px solid #c2a5e2;
+  border-radius: 4px;
+  background-color: #fdfbff;
+}
+
+form button {
+  padding: 10px;
+  background-color: #8a3ab9;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #7326a0;
+}
+
+footer {
+  background-color: #5e3370;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
+
+footer .redes a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+
+footer .redes a:hover {
+  color: #d7b3f6;
+}
+
+@media (max-width: 768px) {
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+  }
+
+  nav a {
+    margin: 5px;
+  }
+}
+
+
+/* Importar fuente decorativa para títulos */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+h1, h2, h3 {
+  font-family: 'Pacifico', cursive;
+  color: #5e3370;
+}
+
+/* Tamaños más grandes para títulos */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 12px;
+}
+
+h3 {
+  font-size: 1.5rem;
+  margin-top: 10px;
+}
