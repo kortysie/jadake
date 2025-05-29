@@ -182,15 +182,13 @@ footer .redes a:hover {
 }
 
 
-/* Importar fuente decorativa para títulos */
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
 
 h1, h2, h3 {
-  font-family: 'Pacifico', cursive;
+  font-family: 'Abril Fatface', cursive;
   color: #5e3370;
 }
 
-/* Tamaños más grandes para títulos */
 h1 {
   font-size: 2.5rem;
   margin-bottom: 15px;
